@@ -1,6 +1,6 @@
 <div align="center">
 
-# Anita Kemboi
+# Anitah Kemboi
 
 ### Data Engineer | Data Analyst | Business Intelligence
 
