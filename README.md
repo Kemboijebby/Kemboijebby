@@ -78,9 +78,13 @@ A notebook-based streaming prototype that retrieves intraday market data, publis
 ### 4. Pharmacy Sales & Profitability Analytics
 **Power BI · DAX · Power Query · Data Modelling**
 
-An interactive Power BI report exploring pharmacy performance across revenue, margin, products, time, and geography. The repository includes the PBIX artifact and dashboard documentation; the original challenge dataset is not redistributed.
+An interactive Power BI report exploring pharmacy performance across revenue, margin, products, time, and geography. The repository includes the PBIX artifact and dashboard screenshots; the original challenge dataset is not redistributed.
 
-[Explore the Pharmacy Analytics report](https://github.com/Kemboijebby/Pharmacy-Sales)
+![Pharmacy Power BI dashboard preview](https://github.com/user-attachments/assets/e1a4e172-dc1d-49a6-b1b0-3e4000362812)
+
+[View the project and dashboard screenshots](https://github.com/Kemboijebby/Pharmacy-Sales) · [Open/download the PBIX report](https://github.com/Kemboijebby/Pharmacy-Sales/raw/refs/heads/main/Pharmacy.pbix)
+
+Open the PBIX file with **Power BI Desktop**. Refreshing the report may require the original challenge data source, which is not included in this repository.
 
 ### 5. Nairobi House Price Prediction Application
 **Python · Flask · MySQL · Machine Learning**
