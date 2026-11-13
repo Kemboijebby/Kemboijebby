@@ -61,40 +61,40 @@ A layered warehouse built from CRM and ERP source files. The repository includes
 
 [Explore the SQL Data Warehouse](https://github.com/Kemboijebby/SQL-DW-Project)
 
-### 2. API-to-Kafka-to-PostgreSQL Pipeline
+### 2. Northwind API → PostgreSQL ETL & Power BI
+**Python · Requests · pandas · SQLAlchemy · PostgreSQL · Power BI**
+
+An API-to-database workflow that extracts seven Northwind resources, normalizes nested JSON, handles selected missing values, loads transformed tables into PostgreSQL, and supports SQL analysis and Power BI reporting. The notebook uses environment variables for database credentials.
+
+[Explore the Northwind ETL & BI project](https://github.com/Kemboijebby/Luxdev-Month01-Project)
+
+### 3. API-to-Kafka-to-PostgreSQL Pipeline
 **Python · REST API · Confluent Kafka · PostgreSQL · Aiven**
 
 A notebook-based streaming prototype that retrieves intraday market data, publishes timestamped events to Kafka, consumes the stream, and persists records in PostgreSQL. Credentials have been moved out of the notebooks into environment-variable configuration.
 
 [Explore the streaming pipeline](https://github.com/Kemboijebby/REAL-TIME-DATA-PIPELINE)
 
-### 3. Pharmacy Sales & Profitability Analytics
+### 4. Pharmacy Sales & Profitability Analytics
 **Power BI · DAX · Power Query · Data Modelling**
 
 An interactive Power BI report exploring pharmacy performance across revenue, margin, products, time, and geography. The repository includes the PBIX artifact and dashboard documentation; the original challenge dataset is not redistributed.
 
 [Explore the Pharmacy Analytics report](https://github.com/Kemboijebby/Pharmacy-Sales)
 
-### 4. Nairobi House Price Prediction Application
+### 5. Nairobi House Price Prediction Application
 **Python · Flask · MySQL · Machine Learning**
 
 A portfolio prototype combining a serialized prediction model, a Flask application, a MySQL location lookup, and a web interface. The backend has been updated to use environment-based database credentials and portable file paths. Model evaluation metrics still need to be documented.
 
 [Explore the house-price application](https://github.com/Kemboijebby/HousePrice-Predictions-Project)
 
-### 5. Nairobi Housing Data Collection & EDA
+### 6. Nairobi Housing Data Collection & EDA
 **Python · pandas · Requests · BeautifulSoup · Jupyter**
 
 A data acquisition and exploration project containing property-listing collection scripts, consolidated housing datasets, and notebooks for data preparation and exploratory analysis.
 
 [Explore the housing data project](https://github.com/Kemboijebby/NairobiHousePrices-Prediction)
-
-### 6. Data Engineering Learning Portfolio
-**Python · SQL · Cloud Fundamentals · Data Engineering Concepts**
-
-A four-month Data Engineering programme archive containing Python exercises, SQL and cloud notes, and selected learning material. This is presented as structured learning evidence rather than a production pipeline.
-
-[Explore the LuxDev Data Engineering repository](https://github.com/Kemboijebby/Luxdev-Data-Engineering)
 
 ---
 
@@ -112,6 +112,10 @@ A four-month Data Engineering programme archive containing Python exercises, SQL
 3. **Protect data quality:** validate, clean, standardize, and model information before analysis.
 4. **Make it usable:** build reusable datasets, clear KPIs, and decision-focused dashboards.
 5. **Keep improving:** document workflows, test assumptions, and make solutions easier to maintain.
+
+## Training & continued learning
+
+Completed a four-month Data Engineering programme at LuxDevHQ, with learning across Python, SQL, cloud fundamentals, data integration, and orchestration. The repository is a learning archive, not a production pipeline: [LuxDev Data Engineering learning portfolio](https://github.com/Kemboijebby/Luxdev-Data-Engineering).
 
 ## Current focus
 
